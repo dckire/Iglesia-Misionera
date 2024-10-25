@@ -1,3 +1,18 @@
+.barra-superior {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 1rem;
+  text-align: center;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 aouto;
+  padding: 1rem;
+}
 
 img {
   width: 100px;
@@ -7,7 +22,7 @@ img {
 }
 
 .menu-btn {
-  background-color: #333;
+  background-color: #444;
   border: none;
   padding: 10px;
   font-size: 16px;
@@ -22,6 +37,19 @@ img {
   margin-bottom: 5px;
 }
 
+
 .menu-btn span:last-child {
   margin-bottom: 0;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  width: 200px;
+}
+
+.menu.show {
+  display: block;
 }
