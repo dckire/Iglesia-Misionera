@@ -1,52 +1,9 @@
 
-  h1 {
-  color: #FF0000;/Color rojo/
-  font-size: 36px;
-  margin-bottom: 10px;
-  }
-
-  p {
-  color: #666;
-  font-size: 18px;
-  margin-bottom: 20px;
-  }
-
-  .logo {
-  width: 100px;
-  height: 100px;
-  margin: 20px auto;
-  background-color: #FFFFFF;/Fondo blanco*/
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 50%;
-  }
-
-.logo img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  margin-bottom: 20px;
-}
-
 img {
   width: 100px;
   height: 100px;
   margin-right: 20px;
   border-radius: 10px;
-}
-
-p {
-  font-size: 10px;
-  margin-top: 0;
 }
 
 .menu-btn {
