@@ -40,4 +40,8 @@ img {
     left: 0;
   }
 
-
+.pantalla-celular {
+  width: 100vw;
+  height: 100vw;
+  background-color: #ccc;
+  padding: 20px;
