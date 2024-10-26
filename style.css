@@ -21,27 +21,6 @@ img {
   border-radius: 10px;
 }
 
-.menu-btn {
-  background-color: #444;
-  border: none;
-  padding: 10px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.menu-btn span {
-  display: block;
-  width: 20px;
-  height: 2px;
-  background-color: #fff;
-  margin-bottom: 5px;
-}
-
-
-.menu-btn span:last-child {
-  margin-bottom: 0;
-}
-
 .menu {
   display: none;
   position: absolute;
@@ -49,45 +28,6 @@ img {
   padding: 1rem;
   width: 200px;
 }
-
-.menu.show {
-  display: block;
-}
-.menu {
-    display: none;
-    position: absolute;
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
-    padding: 10px;
-    width: 200px;
-  }
-
-  .menu-btn {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #333;
-    border: none;
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-
-  .menu-btn span {
-    display: block;
-    width: 20px;
-    height: 2px;
-    background-color: #fff;
-    margin-bottom: 5px;
-  }
-
-  .menu-btn span:last-chil {
-    margin-bottom: 0;
-  }
-
-  .menu-btn:hover {
-    background-color: #444;
-  }
 
   .menu {
     display: none;
@@ -99,4 +39,5 @@ img {
     top: 0;
     left: 0;
   }
+
 
