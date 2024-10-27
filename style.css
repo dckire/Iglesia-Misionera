@@ -1,1 +1,9 @@
+.aplicacion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+.aplicacion div {
+  width: 50%;
+}
