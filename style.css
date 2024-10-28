@@ -18,6 +18,8 @@ background-color: #000;
 }
 
 .columnas {
-  column-count: 2;
-  column-gap: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
