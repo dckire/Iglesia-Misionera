@@ -35,3 +35,9 @@ background-color: #000;
   font-weight: bold;
   margin-bottom: 20px;
 }
+
+body {
+  background-image: url('https://yt3.googleusercontent.com/ytc/AIdro_k7HIcDPNUlJfIrbI0PcRbY6MqemMEP5Gc3qdOaKDa8N5o=s900-c-k-c0x00ffffff-no-rj');
+  background-size: cover;
+  background-position: center;
+}
