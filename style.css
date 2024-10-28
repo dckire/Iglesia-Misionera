@@ -22,3 +22,45 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.franja-superior {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.informacion {
+  padding: 20px;
+}
+
+.linea-separadora {
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.columnas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.columna-izquierda {
+  width: 50%;
+  padding: 20px;
+}
+
+.columna-derecha {
+  width: 50%;
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
