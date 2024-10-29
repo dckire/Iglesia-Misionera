@@ -1,4 +1,32 @@
 body {
+	font-family: Arial, sans-serif;
+	color: #fff;
+	background-color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	padding: 20px;
+	text-align: center;
+}
+
+header img {
+	width: 100px;
+	height: 100px;
+	margin: 20px auto;
+	border-radius: 50%;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding:
+}
+
+body {
 background-color: #000; /* Fondo negro _/
 font-family: Arial, sans-serif; /_ Fuente Arial _/
 color: #fff; /_ Color de texto blanco */
