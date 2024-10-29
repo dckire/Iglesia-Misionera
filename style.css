@@ -98,3 +98,25 @@ footer nav a {
 color: #fff; /* Color de texto blanco _/
 text-decoration: none; /_ Sin subrayado */
 }
+
+.contenido {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
+
+.izquierdo {
+	width: 20%;
+	padding: 20%px;
+}
+
+.derecho {
+	width: 20%;
+	padding: 20%px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
