@@ -1,66 +1,72 @@
-.columnas {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.columnas img {
-  width: 300px;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.columnas p {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
 body {
-  background-image: url('https://yt3.googleusercontent.com/ytc/AIdro_k7HIcDPNUlJfIrbI0PcRbY6MqemMEP5Gc3qdOaKDa8N5o=s900-c-k-c0x00ffffff-no-rj');
-  background-size: cover;
-  background-position: center;
+background-color: #000; /* Fondo negro _/
+font-family: Arial, sans-serif; /_ Fuente Arial _/
+color: #fff; /_ Color de texto blanco */
 }
 
-.franja-superior {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
+header {
+background-color: #333; /* Fondo gris oscuro _/
+padding: 20px; /_ Espaciado interno _/
+text-align: center; /_ Alineación de texto centrada */
 }
 
-.informacion {
-  padding: 20px;
+header img {
+width: 100px; /* Anchura de la imagen _/
+height: 100px; /_ Altura de la imagen _/
+margin: 20px auto; /_ Margen superior e inferior de 20px y centrado horizontalmente _/
+border-radius: 50%; /_ Bordes redondeados */
 }
 
-.linea-separadora {
-  border-bottom: 1px solid #ccc;
-  margin: 20px 0;
+main {
+display: flex; /* Diseño en flexbox _/
+flex-direction: column; /_ Dirección de la columna _/
+align-items: center; /_ Alineación de elementos centrada _/
+padding: 20px; /_ Espaciado interno */
 }
 
-.columnas {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+section {
+background-color: #444; /* Fondo gris oscuro _/
+padding: 20px; /_ Espaciado interno _/
+margin-bottom: 20px; /_ Margen inferior de 20px _/
+border-radius: 10px; /_ Bordes redondeados _/
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /_ Sombra */
 }
 
-.columna-izquierda {
-  width: 50%;
-  padding: 20px;
+section h2 {
+color: #fff; /* Color de texto blanco _/
+margin-top: 0; /_ Margen superior de 0 */
 }
 
-.columna-derecha {
-  width: 50%;
-  padding: 20px;
+section img {
+width: 100%; /* Anchura de la imagen _/
+height: 150px; /_ Altura de la imagen _/
+margin-bottom: 10px; /_ Margen inferior de 10px _/
+border-radius: 10px; /_ Bordes redondeados */
 }
 
-img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
+section a {
+color: #fff; /* Color de texto blanco _/
+text-decoration: none; /_ Sin subrayado */
 }
 
-h2 {
-  margin-top: 0;
+footer {
+background-color: #333; /* Fondo gris oscuro _/
+padding: 10px; /_ Espaciado interno _/
+text-align: center; /_ Alineación de texto centrada */
+}
+
+footer nav ul {
+list-style: none; /* Sin viñetas _/
+margin: 0; /_ Margen de 0 _/
+padding: 0; /_ Espaciado interno de 0 */
+}
+
+footer nav ul li {
+display: inline-block; /* Elementos en línea _/
+margin-right: 10px; /_ Margen derecho de 10px */
+}
+
+footer nav a {
+color: #fff; /* Color de texto blanco _/
+text-decoration: none; /_ Sin subrayado */
 }
