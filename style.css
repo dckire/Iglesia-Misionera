@@ -116,7 +116,7 @@ text-decoration: none; /_ Sin subrayado */
 }
 
 ul {
-	list-style: none;
+	list-style: square inside;
 	padding: auto;
 	margin: auto;
 }
