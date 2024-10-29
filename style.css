@@ -107,16 +107,16 @@ text-decoration: none; /_ Sin subrayado */
 
 .izquierdo {
 	width: 100vw;
-	padding: 300%px;
+	padding: 20%px;
 }
 
 .derecho {
 	width: 100vw;
-	padding: 300%px;
+	padding: 20%px;
 }
 
 ul {
 	list-style: none;
 	padding: 0;
-	margin: 300px;
+	margin: 50px;
 }
