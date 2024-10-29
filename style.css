@@ -106,12 +106,12 @@ text-decoration: none; /_ Sin subrayado */
 }
 
 .izquierdo {
-	width: 300%;
+	width: 100vw;
 	padding: 300%px;
 }
 
 .derecho {
-	width: 300%;
+	width: 100vw;
 	padding: 300%px;
 }
 
