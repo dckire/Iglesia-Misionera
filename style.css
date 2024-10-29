@@ -107,12 +107,12 @@ text-decoration: none; /_ Sin subrayado */
 
 .izquierdo {
 	width: auto;
-	padding: 20%px;
+	padding: auto;
 }
 
 .derecho {
 	width: auto;
-	padding: 20%px;
+	padding: auto;
 }
 
 ul {
