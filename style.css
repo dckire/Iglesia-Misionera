@@ -105,29 +105,14 @@ text-decoration: none; /_ Sin subrayado */
 	position: absolute;
 }
 
-}
+
 
 ul {
 	list-style: square inside;
 	padding: auto;
 	margin: auto;
 }
-Para lograr eso, puedes utilizar el siguiente código HTML y CSS:
 
-HTML:
-```
-<footer>
-  <div class="raya-inferior">
-    <ul>
-      <li>Elemento 1</li>
-      <li>Elemento 2</li>
-      <li>Elemento 3</li>
-    </ul>
-  </div>
-</footer>
-```
-CSS:
-```
 .raya-inferior {
   border-bottom: 1px solid #000; /* Raya inferior */
   padding-bottom: 10px; /* Espacio entre la raya y la lista */
