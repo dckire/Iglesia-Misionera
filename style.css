@@ -99,20 +99,12 @@ color: #fff; /* Color de texto blanco _/
 text-decoration: none; /_ Sin subrayado */
 }
 
-.contenido {
-	display: flex;
-	justify-content: space-between;
-	width: 50%;
+.contenido-centralizado {
+	text-items: center;
+	width: 100%;
+	position: absolute;
 }
 
-.izquierdo {
-	width: auto;
-	padding: auto;
-}
-
-.derecho {
-	width: auto;
-	padding: auto;
 }
 
 ul {
