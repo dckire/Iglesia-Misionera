@@ -100,6 +100,8 @@ text-decoration: none; /_ Sin subrayado */
 }
 
 .contenido-centralizado {
+	margin-left: 0;
+	padding-right: 0;
 text-align: center; /* Alineación de texto centrada _/
 width: 100%; /_ Ancho del 100% _/
 position: absolute; /_ Posición absoluta */
