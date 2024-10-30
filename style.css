@@ -100,15 +100,13 @@ text-decoration: none; /_ Sin subrayado */
 }
 
 .contenido-centralizado {
-	text-items: center;
-	width: 100%;
-	position: absolute;
+text-align: center; /* Alineación de texto centrada _/
+width: 100%; /_ Ancho del 100% _/
+position: absolute; /_ Posición absoluta */
 }
 
-
-
-ul {
-	list-style: square inside;
-	padding: auto;
-	margin: auto;
+.contenido-centralizado ul {
+list-style: square inside; /* Viñetas cuadradas dentro _/
+padding: 0; /_ Espaciado interno de 0 _/
+margin: 0 auto; /_ Margen automático en horizontal */
 }
