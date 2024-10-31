@@ -66,7 +66,7 @@ margin-top: 0; /_ Margen superior de 0 */
 }
 
 section img {
-width: 50%; /*Anchura relativa/
+width: 0; /*Anchura relativa/
 height: 150px; /Altura de la imagen/
 margin-bottom: 10px; /Margen inferior/
 border-radius: 10px; /Border redondeados*/
