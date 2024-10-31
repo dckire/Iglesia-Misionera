@@ -7,7 +7,7 @@ padding: 0;
 }
 
 header {
-background-color: #660066;
+background-color: #333;
 padding: 20px;
 text-align: center;
 }
@@ -94,14 +94,14 @@ margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
-  /*Estilos para ordenadors/
-  header img{
+  /*Estilos para ordenadores/
+  header img {
     width: 200px; /Ajusta el ancho de la imagen/
-    height: 200px: /Ajusta el alto de la imagen/
+    height: 200px; /Ajusta el alto de la imagen/
   }
 
   section img {
-    width: 50% /Ajusta el ancho de la imagen/
-      height: 300px /Ajusta el alto de la imgen*/
+    width: 50%; /Ajusta el ancho de la imagen/
+      height: 300px; /Ajusta el alto de la imgen*/
 }
 }
