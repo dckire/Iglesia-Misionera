@@ -1,123 +1,94 @@
 body {
-	font-family: Arial, sans-serif;
-	color: #fff;
-	background-color: #000;
-	margin: 0;
-	padding: 0;
+font-family: Arial, sans-serif;
+color: #fff;
+background-color: #000;
+margin: 0;
+padding: 0;
 }
 
 header {
-	background-color: #660066;
-	padding: 20px;
-	text-align: center;
+background-color: #660066;
+padding: 20px;
+text-align: center;
 }
 
 header img {
-	width: 100;
-	height: 100px;
-	margin: 20px auto;
-	border-radius: 50%;
+width: 100px;
+height: 100px;
+margin: 20px auto;
+border-radius: 50%;
 }
 
 main {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 20px;
-}
-
-body {
-background-color: #000; /* Fondo negro _/
-font-family: Arial, sans-serif; /_ Fuente Arial _/
-color: #fff; /_ Color de texto blanco */
-}
-
-header {
-background-color: #333; /* Fondo gris oscuro _/
-padding: 20px; /_ Espaciado interno _/
-text-align: center; /_ Alineación de texto centrada */
-}
-
-header img {
-width: 100px; /* Anchura de la imagen _/
-height: 100px; /_ Altura de la imagen _/
-margin: 20px auto; /_ Margen superior e inferior de 20px y centrado horizontalmente _/
-border-radius: 50%; /_ Bordes redondeados */
-}
-
-main {
-display: flex; /* Diseño en flexbox _/
-flex-direction: column; /_ Dirección de la columna _/
-align-items: center; /_ Alineación de elementos centrada _/
-padding: 20px; /_ Espaciado interno */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
 }
 
 section {
-background-color: #444; /* Fondo gris oscuro _/
-padding: 20px; /_ Espaciado interno _/
-margin-bottom: 20px; /_ Margen inferior de 20px _/
-border-radius: 10px; /_ Bordes redondeados _/
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /_ Sombra */
+background-color: #444;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 section h2 {
-color: #fff; /* Color de texto blanco _/
-margin-top: 0; /_ Margen superior de 0 */
+color: #fff;
+margin-top: 0;
 }
 
 section img {
-width: 0; /*Anchura relativa/
-height: 150px; /Altura de la imagen/
-margin-bottom: 10px; /Margen inferior/
-border-radius: 10px; /Border redondeados*/
+width: 100%;
+height: 150px;
+margin-bottom: 10px;
+border-radius: 10px;
 }
 
 section a {
-color: #fff; /* Color de texto blanco _/
-text-decoration: none; /_ Sin subrayado */
+color: #fff;
+text-decoration: none;
 }
 
 footer {
-background-color: #333; /* Fondo gris oscuro _/
-padding: 10px; /_ Espaciado interno _/
-text-align: center; /_ Alineación de texto centrada */
+background-color: #333;
+padding: 10px;
+text-align: center;
 }
 
 footer nav ul {
-list-style: none; /* Sin viñetas _/
-margin: 0; /_ Margen de 0 _/
-padding: 0; /_ Espaciado interno de 0 */
+list-style: none;
+margin: 0;
+padding: 0;
 }
 
 footer nav ul li {
-display: inline-block; /* Elementos en línea _/
-margin-right: 0; /_ Margen derecho de 10px */
+display: inline-block;
+margin-right: 10px;
 }
 
 footer nav a {
-color: #fff; /* Color de texto blanco _/
-text-decoration: none; /_ Sin subrayado */
+color: #fff;
+text-decoration: none;
 }
 
 .contenido-centralizado {
-	margin-left: 0;
-	padding-right: 0;
-}
-
-.contenido-centralizado {
-text-align: center; /* Alineación de texto centrada _/
-width: 100%; /_ Ancho del 100% _/
-position: absolute; /_ Posición absoluta */
+margin-left: 0;
+padding-right: 0;
+text-align: center;
+width: 100%;
+position: relative;
 }
 
 .contenido-centralizado ul {
-list-style: square inside; /* Viñetas cuadradas dentro _/
-padding: 0; /_ Espaciado interno de 0 _/
-margin: 0; /_ Margen automático en horizontal */
+list-style: square inside;
+padding: 0;
+margin: 0 auto;
 }
 
 .home-icon {
-	position: absolute:
-	left: 0;
-	top: 0;
+position: relative;
+left: 0;
+top: 0;
 }
