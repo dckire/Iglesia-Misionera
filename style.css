@@ -66,10 +66,10 @@ margin-top: 0; /_ Margen superior de 0 */
 }
 
 section img {
-width: 100%; /* Anchura de la imagen _/
-height: 150px; /_ Altura de la imagen _/
-margin-bottom: 10px; /_ Margen inferior de 10px _/
-border-radius: 10px; /_ Bordes redondeados */
+width: 50%; /*Anchura relativa/
+height: 150px; /Altura de la imagen/
+margin-bottom: 10px; /Margen inferior/
+border-radius: 10px; /Border redondeados*/
 }
 
 section a {
