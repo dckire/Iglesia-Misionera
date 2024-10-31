@@ -83,7 +83,7 @@ position: relative;
 
 .contenido-centralizado ul {
 list-style: square inside;
-padding: 0;
+padding: 0 auto;
 margin: 0 auto;
 }
 
