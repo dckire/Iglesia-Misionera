@@ -115,3 +115,9 @@ list-style: square inside; /* Viñetas cuadradas dentro _/
 padding: 0; /_ Espaciado interno de 0 _/
 margin: 0; /_ Margen automático en horizontal */
 }
+
+.home-icon {
+	position: absolute:
+	left: 0;
+	top: 0;
+}
