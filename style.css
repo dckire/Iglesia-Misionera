@@ -88,7 +88,20 @@ margin: 0 auto;
 }
 
 .home-icon {
-position: relative;
-left: 0;
-top: 0;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  /*Estilos para ordenadors/
+  header img{
+    width: 200px; /Ajusta el ancho de la imagen/
+    height: 200px: /Ajusta el alto de la imagen/
+  }
+
+  section img {
+    width: 50% /Ajusta el ancho de la imagen/
+      height: 300px /Ajusta el alto de la imgen*/
+}
 }
